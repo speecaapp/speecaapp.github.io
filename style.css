@@ -1,0 +1,39 @@
+@media screen and (max-width: 420px) {
+  .center {
+    /* margin: 0 !important;  */
+    /* Shits not working */
+  }
+}
+
+body {
+  background-color: #ffffff;
+  height: 100%;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  font-size: 13em;
+  color: black;
+  text-transform: uppercase;
+  /* text-align: center; */
+}
+
+span {
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 16%;
+  left: 3%;
+  /* left: 25%; */
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
