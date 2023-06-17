@@ -24,12 +24,13 @@ span {
 }
 
 .center {
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
   width: 50%;
   position: absolute;
   top: 16%;
   left: 3%;
-  /* left: 25%; */
 }
 
 @keyframes caret {

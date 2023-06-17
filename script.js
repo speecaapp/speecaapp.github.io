@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // array with texts to type in typewriter
   var dataText = [
     "Speeca",
-    "AI-powered",
+    "AI-fueled",
     "NFTs",
     "Livestream",
     "Games",
-    "the curious",
-    "and Creators.",
+    "for the curious",
+    "and the Creators.",
   ];
 
   // type one text in the typewriter
